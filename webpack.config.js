@@ -19,6 +19,7 @@ const webpackConfig = (env) => ({
         test: /\.jsx?$/,
         loader: 'babel-loader',
         exclude: /dist/,
+         exclude: /node_modules/,
       },
       {
         test: /\.s?css$/,
